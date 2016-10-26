@@ -11,7 +11,7 @@ find_package(catkin REQUIRED
     ${MESSAGE_DEPENDENCIES} )
 
 #Add message files
-add_message_files(DIRECTORY msg FILES StepTarget.msg)
+add_message_files(DIRECTORY msg FILES StepTarget.msg StepTargetArray.msg)
 
 #Add service files
 add_service_files(DIRECTORY srv
